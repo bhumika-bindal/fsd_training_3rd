@@ -1,0 +1,29 @@
+div ~p{
+     background-color: brown;
+     color: white;
+}
+/* p:hover{
+    font-size: xx-large;
+    background-color: aqua;
+} */
+p::after{
+    content: " - This is my first project on mern stack";
+    color: palevioletred;
+    background-color: black;
+}
+p::before{
+    content: "Hello ";
+    color: palevioletred;
+    background-color: black;
+}
+p::selection{
+    background-color: chartreuse;
+}
+p:nth-child(2){
+    background-color: coral;
+    color: white;
+}
+div p:nth-of-type(1){
+    background-color: darkcyan;
+    color: white;
+}
